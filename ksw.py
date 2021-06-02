@@ -85,7 +85,7 @@ while Goback != "No":
     compareCard(cardNum)
 
     # 게임 재시작
-    print()
+    # print()
 
     Goback = input("선택의 순간으로 되돌아 가겠습니까? Yes or No  : ")
     while Goback != "No" and Goback != "Yes":
