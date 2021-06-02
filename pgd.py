@@ -43,6 +43,7 @@ def getCardNum():
     card = int(input('어떤 카드를 고르시겠어요? 1 또는 2 :'))
     return card if card == 1 or card ==2 else getCardNum()
     
+
 def compareCardNum(cardNum):
     RealCard = random.randint(1,2)
     print('당신이 고른 카드는')
@@ -76,6 +77,5 @@ def openning():
             print("Y 또는 N을 입력하셔요! ")
             Goback = input("선택의 순간으로 되돌아가겠습니까? Y/N>")
 
-            
             
 openning()
