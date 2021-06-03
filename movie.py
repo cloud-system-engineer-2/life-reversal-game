@@ -1,11 +1,11 @@
 movie1 ={
-    "title" : "Minarie",
-    "tags" : ["korea","drama","usa","1980","country"] 
+    "title" : "미나리",
+    "tags" : ["한국","드라마","미국","1980","시골"] 
 
     }
 movie2 ={
-    "title" : "Sweethome",
-    "tags" : ["korea","drama","horror","city","monster"] 
+    "title" : "스위트홈",
+    "tags" : ["한국","드라마","호러","도시","괴물"] 
 
     }    
 
