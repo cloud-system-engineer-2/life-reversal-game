@@ -46,16 +46,20 @@ def file_save(text):
 
 
 ####################### main ################################
-try:
-    tag, name =user_info_input()
-    moviecontain=movie_search(tag)
 
-finally:
+
+def main():
     try:
-        file_save(moviecontain)
+        tag, name =user_info_input()
+        moviecontain=movie_search(tag)
 
-    except:
-        print("there are no movies relevent with your tags")
-        print("program exit...")
+    finally:
+        try:
+            file_save(moviecontain)
+
+        except:
+            print("there are no movies relevent with your tags")
+            print("program exit...")
 
 
+main()
